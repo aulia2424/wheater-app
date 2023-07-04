@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="weather_img">
-      <h2 className="title">Weather App Sederhana</h2>
+      <h2 className="title">Weather App</h2>
       {!loading ? (
         <>
           <TextField
