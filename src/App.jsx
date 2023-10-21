@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="weather_img">
-      <h2 className="title">Weather App</h2>
+      <h2 className="title">Contoh App</h2>
       {!loading ? (
         <>
           <TextField
@@ -50,7 +50,8 @@ function App() {
             onChange={(e) => setInputText(e.target.value)}
             onKeyDown={handleSearch}
           />
-          <h1 className="city">{data.name}</h1>
+          <h1 className="city">City</h1>
+            <h2>{data.name}</h2>
           <div className="group">
             <img
               src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
